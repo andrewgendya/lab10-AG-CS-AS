@@ -3,7 +3,7 @@ import math
 def add(a, b):
     return a + b
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 def mul(a, b):
@@ -21,3 +21,16 @@ def log(a, b):
 
 def exp(a, b):
     return a ** b
+
+def logarithm(base, value):
+    if base <= 0 or base == 1 or value <= 0:
+        raise ValueError("Invalid arguments for logarithm")
+    return math.log(value, base)
+
+def hypotenuse(a, b):
+    return math.sqrt(a*a + b*b)
+
+def square_root(x):
+    if x < 0:
+        raise ValueError("Cannot calculate square root of a negative number")
+    return math.sqrt(x)
