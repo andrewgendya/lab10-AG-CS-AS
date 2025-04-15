@@ -1,3 +1,8 @@
+# https://github.com/andrewgendya/lab10-AG-CS-AS.git
+# Partner 1:
+# Partner 2:
+
+
 import unittest
 import calculator
 import math

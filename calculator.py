@@ -1,3 +1,7 @@
+# https://github.com/andrewgendya/lab10-AG-CS-AS.git
+# Partner 1:
+# Partner 2:
+
 import math
 
 def add(a, b):
